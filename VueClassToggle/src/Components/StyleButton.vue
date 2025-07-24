@@ -2,8 +2,8 @@
 import { ref } from 'vue'
 
 const style = ref(style1)
-const style1 = 'bg-black text-white border-1'
-const style2 = 'bg-white text-black border-1'
+const style1 = 'bg-red-600 text-white '
+const style2 = 'bg-green-600 text-white '
 const toggleStyle = () => {
   if (style.value == style1) {
     style.value = style2
